@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- daisy ui and tailwindCss -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.22/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <style>
+        
+        .font family{
+            font-family: 'Manrope', sans-serif;
+        }
+    </style>
+    <script>
+        tailwind.config = {
+            theme: {
+              extend: {
+                colors: {
+                  clifford: '#da373d',
+                  'red': '#FF4240',
+                }
+              }
+            }
+          }
+        </script>
+</head>
+<body class="bg-white">
+    <header class="lg:px-[150px] md:grid-flow-row">
+         <nav>
+            <div class="flex justify-evenly">
+            <div class="navbar ">
+                <a class="btn btn-ghost text-xl">Hockey<span class=" text-red">’</span>s</a>
+              
+              
+                <div class="lg:gap-10 md:space-x-3 lg:pl-32 align-center">
+                    <a class="text-red" href="">Home</a>
+                    <a href="">About</a>
+                    <a href="">Pages</a>
+                    <a href="">Blog</a>
+                    <a href="">Contact</a>
+                  </div>
+                </div>
+
+                  <div class="pt-2  ">
+                <button class="btn bg-red text-white text-center ">Get Ticket</button>
+              </div>
+            </div>
+            </div>
+         </nav>
+    </header>
+    <!-- baner-section  -->
+     <section class="lg:px-[150px] md:grid-flow-row">
+
+    <div class="carousel ">
+        <div id="slide1" class="carousel-item relative w-full">
+          <img
+            src="Images/1.png"
+            class="w-full" />
+          <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+            <a href="#slide4" class="btn btn-circle">❮</a>
+            <a href="#slide2" class="btn btn-circle">❯</a>
+          </div>
+        </div>
+        <div id="slide2" class="carousel-item relative w-full">
+          <img
+            src="Images/2.png"
+            class="w-full" />
+          <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+            <a href="#slide1" class="btn btn-circle">❮</a>
+            <a href="#slide3" class="btn btn-circle">❯</a>
+          </div>
+        </div>
+        <div id="slide3" class="carousel-item relative w-full">
+          <img
+            src="Images/3.png"
+            class="w-full" />
+          <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+            <a href="#slide2" class="btn btn-circle">❮</a>
+            <a href="#slide4" class="btn btn-circle">❯</a>
+          </div>
+        </div>
+        <div id="slide4" class="carousel-item relative w-full">
+          <img
+            src="Images/4.png"
+            class="w-full" />
+          <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+            <a href="#slide3" class="btn btn-circle">❮</a>
+            <a href="#slide1" class="btn btn-circle">❯</a>
+          </div>
+        </div>
+      </div>
+    
+      <hr class="mt-10">
+    </section>
+    
+    <main>
+        <!--Professional Hockeys Club section  -->
+        <section class="mt-24 lg:px-[150px]">
+            <h3 class="text-3xl text-center text-black">Professional Hockeys Club</h3>
+            <p class="text-center">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat <br> dolor. Purus urna in sit nullam proin. </p>
+            <hr class="mb-8">
+
+            <div class="flex grid lg:grid-flow-col lg:justify-center md:grid  gap-8">
+            <!-- card 1 -->
+            <div class="lg:w-[250px] mt-10">
+                
+                <div class="text-center">
+                    <div class=" text-red radial-progress" style="--value:87;" role="progressbar">87%</div>
+                </div>
+                <h3 class="text-xl text-center text-black">Prayer Facility</h3>
+                <p class="text-center pt-3">Amet consectetur. Condimentum <br> dignissim adipiscing .</p>
+            </div>
+            <!-- card 2 -->
+            <div class="lg:w-[250px] mt-10">
+                
+                <div class="text-center">
+                    <div class=" text-[#49D293] radial-progress" style="--value:95;" role="progressbar">95%</div>
+                </div>
+                <h3 class="text-xl text-center text-black">Experienced Coach</h3>
+                <p class="text-center pt-3">Amet consectetur. Condimentum <br> dignissim adipiscing .</p>
+            </div>
+            <!-- card 3 -->
+            <div class="lg:w-[250px] mt-10">
+                
+                <div class="text-center">
+                    <div class=" text-[#FFB546] radial-progress" style="--value:90;" role="progressbar">90%</div>
+                </div>
+                <h3 class="text-xl text-center text-black">Senior Player</h3>
+                <p class="text-center pt-3">Amet consectetur. Condimentum <br> dignissim adipiscing .</p>
+            </div>
+            <!-- card 4 -->
+            <div class="lg:w-[250px] mt-10">
+                
+                <div class="text-center">
+                    <div class=" text-[#4C8DF1] radial-progress" style="--value:87;" role="progressbar">87%</div>
+                </div>
+                <h3 class="text-xl text-center text-black">Training Ground</h3>
+                <p class="text-center pt-3">Amet consectetur. Condimentum <br> dignissim adipiscing .</p>
+            </div>
+
+        </div>
+        <hr class="mt-10">
+        </section>
+        <!-- program sections -->
+         <section class="mt-24">
+            <h3 class="text-5xl text-black text-center ">Program Sections</h3>
+            <p class="text-center">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+         </section>
+
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
